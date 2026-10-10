@@ -1,0 +1,87 @@
+# ABOUTME: Homepage copy in English and Spanish, rendered by _layouts/home.html.
+# ABOUTME: Each page picks its language via the `lang` front matter key (en or es).
+
+en:
+  meta_title: "Gravitas — Abundant, cheap energy for Central America and the Caribbean"
+  meta_description: "Gravitas builds and invests in power generation and energy software to bring abundant, cheap energy to Central America and the Caribbean."
+  nav:
+    mission: Mission
+    projects: Projects
+    contact: Partner with us
+  other_lang_label: ES
+  other_lang_url: /es/
+  hero:
+    eyebrow: Our mission
+    title: "Abundant, cheap energy for Central America and the Caribbean."
+    lede: "Cheap energy is the main force behind prosperity and innovation. We build power plants and the software that runs them, so the region has more energy at a lower price."
+    cta_primary: See our projects
+    cta_secondary: Partner with us
+  why:
+    title: Energy is prosperity
+    body: "Every leap in living standards has come with more energy per person. For the region to grow, energy has to be plentiful and cheap. That is what we work on."
+    chart_alt: "Chart relating energy use to prosperity"
+    source_label: Source
+  projects:
+    title: What we're building
+    items:
+      - name: Gravitas Solar
+        status: In development
+        body: "A utility-scale solar power plant in Guatemala, adding low-cost generation to the national grid. Now in site and interconnection qualification."
+      - name: EMS
+        status: Live
+        body: "Energy management software for Guatemalan generators. It automates AMM settlement, SAT invoicing and plant monitoring."
+        link_label: Visit ems.gt
+        link_url: https://ems.gt
+      - name: More in the works
+        status: Coming soon
+        body: "We're developing more generation projects across the region. Stay tuned."
+  contact:
+    title: Partner with us
+    body: "We work with fund investors who want exposure to the region's energy build-out, and with technology and operating partners who can help us build, deploy and run generation at scale. If that's you, let's talk."
+  footer: "Gravitas Energy"
+
+es:
+  meta_title: "Gravitas — Energía abundante y barata para Centroamérica y el Caribe"
+  meta_description: "Gravitas construye e invierte en generación eléctrica y software de energía para llevar energía abundante y barata a Centroamérica y el Caribe."
+  nav:
+    mission: Misión
+    projects: Proyectos
+    contact: Alianzas
+  other_lang_label: EN
+  other_lang_url: /
+  hero:
+    eyebrow: Nuestra misión
+    title: "Energía abundante y barata para Centroamérica y el Caribe."
+    lede: "La energía barata es la principal fuerza detrás de la prosperidad y la innovación. Construimos plantas de generación y el software que las opera, para que la región tenga más energía a menor precio."
+    cta_primary: Ver proyectos
+    cta_secondary: Trabaja con nosotros
+  why:
+    title: Energía es prosperidad
+    body: "Cada salto en calidad de vida ha venido acompañado de más energía por persona. Para que la región crezca, la energía tiene que ser abundante y barata. En eso trabajamos."
+    chart_alt: "Gráfica que relaciona el consumo de energía con la prosperidad"
+    source_label: Fuente
+  projects:
+    title: Lo que estamos construyendo
+    items:
+      - name: Gravitas Solar
+        status: En desarrollo
+        body: "Una planta solar a escala de servicio público en Guatemala, que suma generación de bajo costo a la red nacional. Actualmente en calificación de sitio e interconexión."
+      - name: EMS
+        status: En operación
+        body: "Software de gestión de energía para generadores en Guatemala. Automatiza la liquidación del AMM, la facturación SAT y el monitoreo de planta."
+        link_label: Visitar ems.gt
+        link_url: https://ems.gt
+      - name: Más en camino
+        status: Próximamente
+        body: "Estamos desarrollando más proyectos de generación en la región. Pendientes."
+  contact:
+    title: Trabaja con nosotros
+    body: "Trabajamos con fondos de inversión que buscan participar en la expansión energética de la región, y con socios tecnológicos y operativos que nos ayuden a construir, desplegar y operar generación a escala. Si eres uno de ellos, hablemos."
+  footer: "Gravitas Energy"
+
+# Shared across languages.
+email: info@energygravitas.com
+chart:
+  image: /assets/images/energy-prosperity.png
+  source_name: "@elonmusk on X"
+  source_url: https://x.com/elonmusk/status/2108952286030356925
