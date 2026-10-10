@@ -6,6 +6,7 @@ en:
   meta_description: "Gravitas builds and invests in power generation and energy software to bring abundant, cheap energy to Central America and the Caribbean."
   nav:
     mission: Mission
+    plan: Plan
     projects: Projects
     contact: Partners
   other_lang_label: ES
@@ -23,6 +24,18 @@ en:
     chart_by: Chart
     shared_by: shared by
     data_label: Data
+  plan:
+    title: The plan
+    steps:
+      - label: Now
+        title: Build solar + storage plants
+        body: "Low-cost solar with batteries, sited where the grid has room. Cash flow and a track record from day one."
+      - label: Next
+        title: Unlock geothermal
+        body: "Team up with leading geothermal technology and capital partners to tap the region's volcanic heat for clean power around the clock."
+      - label: Then
+        title: Scale across the region
+        body: "Grow to a meaningful share of the region's electricity, always priced below the market."
   projects:
     title: What we're building
     items:
@@ -52,6 +65,7 @@ es:
   meta_description: "Gravitas construye e invierte en generación eléctrica y software de energía para llevar energía abundante y barata a Centroamérica y el Caribe."
   nav:
     mission: Misión
+    plan: Plan
     projects: Proyectos
     contact: Socios
   other_lang_label: EN
@@ -69,6 +83,18 @@ es:
     chart_by: Gráfica
     shared_by: compartida por
     data_label: Datos
+  plan:
+    title: El plan
+    steps:
+      - label: Ahora
+        title: Construir plantas solares con baterías
+        body: "Energía solar de bajo costo con almacenamiento, ubicada donde la red tiene capacidad. Flujo de caja y experiencia desde el primer día."
+      - label: Después
+        title: Desbloquear la geotermia
+        body: "Aliarnos con socios líderes en tecnología geotérmica y capital para aprovechar el calor volcánico de la región y generar energía limpia las 24 horas."
+      - label: Luego
+        title: Escalar en la región
+        body: "Crecer hasta aportar una parte significativa de la electricidad de la región, siempre por debajo del precio de mercado."
   projects:
     title: Lo que estamos construyendo
     items:
