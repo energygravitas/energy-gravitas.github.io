@@ -25,19 +25,24 @@ en:
     title: What we're building
     items:
       - name: Gravitas Solar
-        status: In development
-        body: "A utility-scale solar power plant in Guatemala, adding low-cost generation to the national grid. Now in site and interconnection qualification."
+        status: Live
+        live: true
+        body: "A 5 MW solar power plant in Guatemala, delivering low-cost generation to the national grid."
       - name: EMS
         status: Live
+        live: true
         body: "Energy management software for Guatemalan generators. It automates AMM settlement, SAT invoicing and plant monitoring."
         link_label: Visit ems.gt
         link_url: https://ems.gt
-      - name: More in the works
+      - name: Gravitas 2
         status: Coming soon
-        body: "We're developing more generation projects across the region. Stay tuned."
+        body: "Our next power plant, building on what we learned delivering Gravitas Solar."
+      - name: Geothermal project
+        status: Coming soon
+        body: "Firm, around-the-clock clean power from the region's geothermal resources."
   contact:
     title: Partner with us
-    body: "We work with fund investors who want exposure to the region's energy build-out, and with technology and operating partners who can help us build, deploy and run generation at scale. If that's you, let's talk."
+    body: "We work with fund investors who want exposure to the region's energy build-out, and with technology and operating partners who can help us build, deploy and run generation at scale."
   footer: "Gravitas Energy"
 
 es:
@@ -64,23 +69,27 @@ es:
     title: Lo que estamos construyendo
     items:
       - name: Gravitas Solar
-        status: En desarrollo
-        body: "Una planta solar a escala de servicio público en Guatemala, que suma generación de bajo costo a la red nacional. Actualmente en calificación de sitio e interconexión."
+        status: En operación
+        live: true
+        body: "Una planta solar de 5 MW en Guatemala que entrega generación de bajo costo a la red nacional."
       - name: EMS
         status: En operación
+        live: true
         body: "Software de gestión de energía para generadores en Guatemala. Automatiza la liquidación del AMM, la facturación SAT y el monitoreo de planta."
         link_label: Visitar ems.gt
         link_url: https://ems.gt
-      - name: Más en camino
+      - name: Gravitas 2
         status: Próximamente
-        body: "Estamos desarrollando más proyectos de generación en la región. Pendientes."
+        body: "Nuestra próxima planta de generación, construida sobre lo aprendido con Gravitas Solar."
+      - name: Proyecto geotérmico
+        status: Próximamente
+        body: "Energía limpia, firme y continua a partir de los recursos geotérmicos de la región."
   contact:
     title: Trabaja con nosotros
-    body: "Trabajamos con fondos de inversión que buscan participar en la expansión energética de la región, y con socios tecnológicos y operativos que nos ayuden a construir, desplegar y operar generación a escala. Si eres uno de ellos, hablemos."
+    body: "Trabajamos con fondos de inversión que buscan participar en la expansión energética de la región, y con socios tecnológicos y operativos que nos ayuden a construir, desplegar y operar generación a escala."
   footer: "Gravitas Energy"
 
 # Shared across languages.
-email: info@energygravitas.com
 chart:
   image: /assets/images/energy-prosperity.png
   source_name: "@elonmusk on X"
