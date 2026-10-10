@@ -7,7 +7,7 @@ en:
   nav:
     mission: Mission
     projects: Projects
-    contact: Partner with us
+    contact: Partners
   other_lang_label: ES
   other_lang_url: /es/
   hero:
@@ -15,7 +15,7 @@ en:
     title: "Abundant, cheap energy for Central America and the Caribbean."
     lede: "Cheap energy is the main force behind prosperity and innovation. We build power plants and the software that runs them, so the region has more energy at a lower price."
     cta_primary: See our projects
-    cta_secondary: Partner with us
+    cta_secondary: Who we work with
   why:
     title: Energy is prosperity
     body: "Every leap in living standards has come with more energy per person. For the region to grow, energy has to be plentiful and cheap. That is what we work on."
@@ -41,7 +41,7 @@ en:
         status: Coming soon
         body: "Firm, around-the-clock clean power from the region's geothermal resources."
   contact:
-    title: Partner with us
+    title: Who we work with
     body: "We work with fund investors who want exposure to the region's energy build-out, and with technology and operating partners who can help us build, deploy and run generation at scale."
   footer: "Gravitas Energy"
 
@@ -51,7 +51,7 @@ es:
   nav:
     mission: Misión
     projects: Proyectos
-    contact: Alianzas
+    contact: Socios
   other_lang_label: EN
   other_lang_url: /
   hero:
@@ -59,7 +59,7 @@ es:
     title: "Energía abundante y barata para Centroamérica y el Caribe."
     lede: "La energía barata es la principal fuerza detrás de la prosperidad y la innovación. Construimos plantas de generación y el software que las opera, para que la región tenga más energía a menor precio."
     cta_primary: Ver proyectos
-    cta_secondary: Trabaja con nosotros
+    cta_secondary: Con quién trabajamos
   why:
     title: Energía es prosperidad
     body: "Cada salto en calidad de vida ha venido acompañado de más energía por persona. Para que la región crezca, la energía tiene que ser abundante y barata. En eso trabajamos."
@@ -85,7 +85,7 @@ es:
         status: Próximamente
         body: "Energía limpia, firme y continua a partir de los recursos geotérmicos de la región."
   contact:
-    title: Trabaja con nosotros
+    title: Con quién trabajamos
     body: "Trabajamos con fondos de inversión que buscan participar en la expansión energética de la región, y con socios tecnológicos y operativos que nos ayuden a construir, desplegar y operar generación a escala."
   footer: "Gravitas Energy"
 
