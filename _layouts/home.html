@@ -118,6 +118,16 @@
     .card.muted { background: var(--sunken); border-style: dashed; }
     .card a.more { font-weight: 600; text-decoration: none; color: var(--ink); border-bottom: 2px solid var(--accent); align-self: flex-start; }
 
+    .plan { background: var(--hero-bg); color: var(--hero-ink); }
+    .steps { list-style: none; margin: 48px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; position: relative; }
+    .steps::before { content: ""; position: absolute; top: 22px; left: 22px; right: 22px; height: 2px; background: linear-gradient(90deg, var(--accent), rgba(245, 179, 1, 0.15)); }
+    .step { position: relative; }
+    .step-num { position: relative; display: grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; background: var(--hero-bg); border: 2px solid var(--accent); color: var(--accent); font-weight: 800; font-size: 18px; }
+    .step:first-child .step-num { background: var(--accent); color: var(--ink); }
+    .step-label { display: block; margin: 20px 0 6px; color: var(--accent); font-weight: 600; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; }
+    .step h3 { font-size: 22px; line-height: 1.25; margin: 0 0 10px; letter-spacing: -0.01em; }
+    .step p { color: var(--hero-ink-2); margin: 0; font-size: 16px; }
+
     .contact { border-top: 1px solid var(--hairline); }
     .contact p { color: var(--ink-2); font-size: 19px; margin: 0; max-width: 62ch; }
 
@@ -126,6 +136,11 @@
 
     @media (max-width: 820px) {
       .cards { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; gap: 36px; }
+      .steps::before { top: 22px; bottom: 22px; left: 22px; right: auto; width: 2px; height: auto; background: linear-gradient(180deg, var(--accent), rgba(245, 179, 1, 0.15)); }
+      .step { padding-left: 68px; }
+      .step-num { position: absolute; left: 0; top: 0; }
+      .step-label { margin-top: 10px; }
       .nav-links a:not(.lang) { display: none; }
       .hero { padding: 64px 0 88px; }
       .grid-canvas { opacity: 0.55; }
@@ -144,6 +159,7 @@
       </a>
       <nav class="nav-links">
         <a href="#mission">{{ t.nav.mission }}</a>
+        <a href="#plan">{{ t.nav.plan }}</a>
         <a href="#projects">{{ t.nav.projects }}</a>
         <a href="#contact">{{ t.nav.contact }}</a>
         <a class="lang" href="{{ t.other_lang_url }}" hreflang="{{ t.other_lang_label | downcase }}">{{ t.other_lang_label }}</a>
@@ -178,6 +194,22 @@
           </figcaption>
         </figure>
         {%- endif %}
+      </div>
+    </section>
+
+    <section class="plan" id="plan">
+      <div class="wrap">
+        <h2 data-reveal>{{ t.plan.title }}</h2>
+        <ol class="steps">
+          {%- for s in t.plan.steps %}
+          <li class="step" data-reveal style="--d: {{ forloop.index }}">
+            <span class="step-num">{{ forloop.index }}</span>
+            <span class="step-label">{{ s.label }}</span>
+            <h3>{{ s.title }}</h3>
+            <p>{{ s.body }}</p>
+          </li>
+          {%- endfor %}
+        </ol>
       </div>
     </section>
 
