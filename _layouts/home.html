@@ -90,7 +90,7 @@
     section h2 { font-size: clamp(30px, 4vw, 42px); line-height: 1.15; letter-spacing: -0.015em; margin: 0 0 20px; font-weight: 800; }
     .why { background: var(--sunken); border-bottom: 1px solid var(--hairline); }
     .why p.body { color: var(--ink-2); font-size: 19px; max-width: 62ch; margin: 0; }
-    .chart { margin: 48px 0 0; background: var(--canvas); border: 1px solid var(--hairline); border-radius: 12px; padding: 24px; }
+    .chart { margin: 48px 0 0; max-width: 820px; background: var(--canvas); border: 1px solid var(--hairline); border-radius: 12px; padding: 24px; }
     .chart img { display: block; width: 100%; height: auto; }
     .chart figcaption { margin-top: 16px; font-size: 14px; color: var(--ink-2); }
 
@@ -171,8 +171,11 @@
         <p class="body" data-reveal style="--d: 1">{{ t.why.body }}</p>
         {%- if chart_file %}
         <figure class="chart" data-reveal style="--d: 2">
-          <img src="{{ home.chart.image }}" alt="{{ t.why.chart_alt }}" loading="lazy">
-          <figcaption>{{ t.why.source_label }}: <a href="{{ home.chart.source_url }}" rel="noopener" target="_blank">{{ home.chart.source_name }}</a></figcaption>
+          <img src="{{ home.chart.image }}" alt="{{ t.why.chart_alt }}" width="2000" height="1851" loading="lazy">
+          <figcaption>
+            {{ t.why.chart_by }}: <a href="{{ home.chart.author_url }}" rel="noopener" target="_blank">{{ home.chart.author_name }}</a>, {{ t.why.shared_by }} <a href="{{ home.chart.shared_url }}" rel="noopener" target="_blank">{{ home.chart.shared_name }}</a>.
+            {{ t.why.data_label }}: <a href="{{ home.chart.data_url }}" rel="noopener" target="_blank">{{ home.chart.data_name }}</a>.
+          </figcaption>
         </figure>
         {%- endif %}
       </div>

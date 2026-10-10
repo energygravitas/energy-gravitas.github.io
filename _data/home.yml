@@ -19,8 +19,10 @@ en:
   why:
     title: Energy is prosperity
     body: "Every leap in living standards has come with more energy per person. For the region to grow, energy has to be plentiful and cheap. That is what we work on."
-    chart_alt: "Chart relating energy use to prosperity"
-    source_label: Source
+    chart_alt: "Scatter chart of electricity consumption per capita versus GDP per capita by country. Rich countries all use a lot of electricity: there are no low-electricity, rich countries."
+    chart_by: Chart
+    shared_by: shared by
+    data_label: Data
   projects:
     title: What we're building
     items:
@@ -63,8 +65,10 @@ es:
   why:
     title: Energía es prosperidad
     body: "Cada salto en calidad de vida ha venido acompañado de más energía por persona. Para que la región crezca, la energía tiene que ser abundante y barata. En eso trabajamos."
-    chart_alt: "Gráfica que relaciona el consumo de energía con la prosperidad"
-    source_label: Fuente
+    chart_alt: "Gráfica de dispersión del consumo de electricidad per cápita frente al PIB per cápita por país. Los países ricos consumen mucha electricidad: no existen países ricos con poca electricidad."
+    chart_by: Gráfica
+    shared_by: compartida por
+    data_label: Datos
   projects:
     title: Lo que estamos construyendo
     items:
@@ -91,6 +95,10 @@ es:
 
 # Shared across languages.
 chart:
-  image: /assets/images/energy-prosperity.png
-  source_name: "@elonmusk on X"
-  source_url: https://x.com/elonmusk/status/2108952286030356925
+  image: /assets/images/electricity-vs-gdp.jpg
+  author_name: a16z
+  author_url: https://a16z.news
+  shared_name: "@elonmusk"
+  shared_url: https://x.com/elonmusk/status/2108952286030356925
+  data_name: "Energy for Growth Hub, US EIA, World Bank (2021)"
+  data_url: https://energyforgrowth.org/article/high-income-low-energy-countries-dont-exist-update-sep-2024/
