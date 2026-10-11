@@ -24,6 +24,9 @@ en:
     chart_by: Chart
     shared_by: shared by
     data_label: Data
+    marker_label: Guatemala
+    marker_gdp: "GDP per capita, World Bank"
+    marker_kwh: "electricity per capita, Our World in Data"
   plan:
     title: The plan
     steps:
@@ -83,6 +86,9 @@ es:
     chart_by: Gráfica
     shared_by: compartida por
     data_label: Datos
+    marker_label: Guatemala
+    marker_gdp: "PIB per cápita, Banco Mundial"
+    marker_kwh: "electricidad per cápita, Our World in Data"
   plan:
     title: El plan
     steps:
@@ -128,3 +134,11 @@ chart:
   shared_url: https://x.com/elonmusk/status/2108952286030356925
   data_name: "Energy for Growth Hub, US EIA, World Bank (2021)"
   data_url: https://energyforgrowth.org/article/high-income-low-energy-countries-dont-exist-update-sep-2024/
+  # Guatemala marker, 2021: GDP per capita US$4,913 (World Bank NY.GDP.PCAP.CD), electricity
+  # demand 881 kWh per person (Our World in Data). Position on the 2000x1851 image uses the chart's
+  # log axes, calibrated from its tick labels: x = 712 + 536*(log10(gdp) - 3),
+  # y = 787 - 300*(log10(kWh) - 3). Percentages are x/2000 and y/1851.
+  marker_left: "54.13%"
+  marker_top: "43.41%"
+  marker_gdp_url: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GT
+  marker_kwh_url: https://ourworldindata.org/grapher/per-capita-electricity-demand?country=~GTM
