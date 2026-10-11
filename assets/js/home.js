@@ -128,15 +128,15 @@
       var hx = n0.x + (n1.x - n0.x) * pulse.t, hy = n0.y + (n1.y - n0.y) * pulse.t;
       var tx = n0.x + (n1.x - n0.x) * tail, ty = n0.y + (n1.y - n0.y) * tail;
       var grad = ctx.createLinearGradient(tx, ty, hx, hy);
-      grad.addColorStop(0, "rgba(245, 179, 1, 0)");
-      grad.addColorStop(1, "rgba(255, 205, 64, 0.9)");
+      grad.addColorStop(0, "rgba(0, 116, 141, 0)");
+      grad.addColorStop(1, "rgba(0, 220, 103, 0.9)");
       ctx.strokeStyle = grad;
       ctx.lineWidth = 2;
       ctx.beginPath();
       ctx.moveTo(tx, ty);
       ctx.lineTo(hx, hy);
       ctx.stroke();
-      ctx.fillStyle = "rgba(255, 221, 120, 1)";
+      ctx.fillStyle = "rgba(150, 255, 196, 1)";
       ctx.beginPath();
       ctx.arc(hx, hy, 2.2, 0, Math.PI * 2);
       ctx.fill();
@@ -146,7 +146,7 @@
     for (i = 0; i < nodes.length; i++) {
       var n = nodes[i];
       if (n.glow > 0) {
-        ctx.fillStyle = "rgba(245, 179, 1, " + (0.35 * n.glow) + ")";
+        ctx.fillStyle = "rgba(0, 220, 103, " + (0.35 * n.glow) + ")";
         ctx.beginPath();
         ctx.arc(n.x, n.y, 3 + 9 * n.glow, 0, Math.PI * 2);
         ctx.fill();
